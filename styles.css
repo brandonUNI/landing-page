@@ -26,6 +26,7 @@ ul {
 li.logo {
     margin-right: auto;
 }
+
 .header-link, .subtext {
     font-size: 18px;
     color: #E5E7EB;
@@ -37,7 +38,8 @@ li.logo {
     color: #F9FAF8;
 }
 
-.container.hero {
+
+ .container.hero {
     background-color: #1F2937;
     padding-top: 12px;
     padding-left: 200px;
@@ -81,14 +83,8 @@ li.logo {
 }
 
 .info img {
-    height: 170px;
-    width: auto;
-    padding-bottom: 10px;
-}
-
-.body {
-    display: flex;
-    flex-direction: column;
+    height: auto;
+    width: 170px;
 }
 
 .container.middle {
@@ -106,8 +102,6 @@ li.logo {
     color: #1F2937;
     margin-right: auto;
     margin-left: auto;
-    display: flex;
-    align-items: center;
     padding: 50px;
 }
 
@@ -118,14 +112,55 @@ li.logo {
     padding: 0;
 }
 
-.info {
+.middle-info .info {
     flex-basis: 170px;
-    display: flex;
-    flex-direction: column;
     padding: 0;
+    margin: 0;
+    gap: 0;
 }
 
 .text {
     font-size: 18px;
     text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+.footer {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: center;
+    margin-top: auto;
+    padding: 30px 0;
+}
+
+div .container.quote {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    background-color: #E5E7EB;
+}
+
+div .customer {
+    align-self: flex-end;
+    font-weight: bolder;
+}
+
+div .testimony {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    align-self: center;
 }
